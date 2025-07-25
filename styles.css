@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color: #8987A1;
+}
+
+.text-black{
+    color: #252432;
+}
+
+.text-orange{
+    color: #E95A08;
+}
+
+/* nav */
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.nav-links{
+    text-decoration: none;
+}
+
+.navbar{
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* Fresh flower */
+
+.fresh-flower{
+    align-items: center;
+}
+
+.title{
+    margin-left: 150px;
+}
+
+.fresh-flower-title{
+    font-size: 3.5rem;
+}
+
+.title-description{
+    font-size: 1.1rem;
+}
+
+.title-image{
+    margin-right: 150px;
+}
+
+/* our plants */
+
+.plant{
+    font-size: 3rem;
+    text-align: center;
+}
+.plant-description{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-links,
+    .title-image
+    .title{
+        flex-direction: column;
+    }
+    
+}
