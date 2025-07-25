@@ -49,11 +49,11 @@
 
 .fresh-flower{
     align-items: center;
+    margin: 150px;
 }
 
-.title{
-    margin-left: 150px;
-}
+
+
 
 .fresh-flower-title{
     font-size: 3.5rem;
@@ -63,15 +63,14 @@
     font-size: 1.1rem;
 }
 
-.title-image{
-    margin-right: 150px;
-}
+
 
 /* our plants */
 
 .plant{
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 10px;
 }
 .plant-description{
     font-size: 1.1rem;
@@ -83,8 +82,10 @@
 .flower-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 5px;
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
     
 
 }
@@ -95,7 +96,7 @@
 }
 
 .flower-price{
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 5px;
 }
@@ -107,6 +108,41 @@
     border: none;
     padding: 12px 80px;
 
+}
+
+/* Lover */
+
+.lover{
+    display: flex;
+    gap: 100px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.lover-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.lover-description{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+
+}
+
+.badge-container{
+    position: relative;
+    
+}
+.background-img{
+    
+    display: block;
+}
+.badge-img{
+    position: absolute;
+    top: -170px;
+    right: -150px;
+    width: 400px;
 }
 /* responsive */
 
